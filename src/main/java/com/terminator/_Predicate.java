@@ -3,7 +3,7 @@ package com.terminator;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class PredicateDemo {
+public class _Predicate {
     public static void main(String[] args) {
         List<Person> people = DataSource.getPeople();
 
@@ -20,8 +20,7 @@ public class PredicateDemo {
         Predicate<Integer> lesserthan = i -> (i < 18); 
         System.out.println(lesserthan.test(13));
         System.out.println(lesserthan.test(32));
-        
-        // ----- Predicate negate ------ //
+    
 
         // ----- and ------ //
         // and(Predicate other) : Returns a composed predicate that represents a short-circuiting 
@@ -37,7 +36,5 @@ public class PredicateDemo {
         Predicate<String> hasLengthOf12 = (password) -> password.length() == 12;
         System.out.println(containsLetterP.or(hasLengthOf12).test("Ping")); // true :)
         System.out.println(containsLetterP.or(hasLengthOf12).test("Ong")); // false :(
-
-        // ----- Predicate equals ------ //
     }
 }
