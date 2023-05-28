@@ -31,6 +31,12 @@ public class PredicateDemo {
         System.out.println(greaterThanTen.and(lessThanTwenty).test(13)); // chaining predicates
 
         // ----- Predicate or ------ //
+        // or(Predicate other) : Returns a composed predicate that represents a short-circuiting logical OR 
+        // of this predicate and another.
+        Predicate<String> containsLetterP = (password) -> password.contains("P");
+        Predicate<String> hasLengthOf12 = (password) -> password.length() == 12;
+        System.out.println(containsLetterP.or(hasLengthOf12).test("Ping")); // true :)
+        System.out.println(containsLetterP.or(hasLengthOf12).test("Ong")); // false :(
 
         // ----- Predicate equals ------ //
     }
