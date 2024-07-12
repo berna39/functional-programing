@@ -7,11 +7,13 @@ import java.util.stream.Stream;
 
 public class DataSource {
     
-    public static List<Person> getPeople(){
+    public static List<Person> getPeople() {
         List<Person> people = new ArrayList<>();
 
-       people = Stream.of(new Person("Obito", 12), new Person("Kakashi", 13), new Person("Rhin", 13))
-                .collect(Collectors.toList());
+        people = Stream.of(new Person("Obito", 12), 
+                            new Person("Kakashi", 13), 
+                            new Person("Rhin", 13))
+                    .collect(Collectors.toList());
 
         return people;
     }

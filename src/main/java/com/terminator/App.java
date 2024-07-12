@@ -1,20 +1,25 @@
 package com.terminator;
 
 import java.util.List;
+import java.util.function.Function;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main( String[] args ) {
         List<Person> students = DataSource.getPeople();
 
         // Imperative programming
-        for(Person p : students){
+        // Displaying
+        for(Person p : students) {
             System.out.println(p);
         }
 
         // Functional programing
         // Displaying
         students.forEach(System.out::println);
+
+        Function<Integer, Integer> increment = i -> ++i;
+
+        int a = increment.apply(5);
+        System.out.println(a);
     }
 }
