@@ -1,4 +1,4 @@
-package com.terminator;
+package com.terminator.citizens;
 
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;

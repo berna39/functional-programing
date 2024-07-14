@@ -1,4 +1,4 @@
-package com.terminator;
+package com.terminator.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

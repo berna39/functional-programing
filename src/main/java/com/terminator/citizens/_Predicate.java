@@ -1,7 +1,10 @@
-package com.terminator;
+package com.terminator.citizens;
 
 import java.util.List;
 import java.util.function.Predicate;
+
+import com.terminator.models.Person;
+import com.terminator.utils.DataSource;
 
 public class _Predicate {
     public static void main(String[] args) {

@@ -1,9 +1,11 @@
-package com.terminator;
+package com.terminator.utils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import com.terminator.models.Person;
 
 public class DataSource {
     

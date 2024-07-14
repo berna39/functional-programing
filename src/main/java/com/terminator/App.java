@@ -3,6 +3,9 @@ package com.terminator;
 import java.util.List;
 import java.util.function.Function;
 
+import com.terminator.models.Person;
+import com.terminator.utils.DataSource;
+
 public class App {
     public static void main( String[] args ) {
         List<Person> students = DataSource.getPeople();

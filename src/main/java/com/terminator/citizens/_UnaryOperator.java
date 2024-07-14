@@ -1,4 +1,4 @@
-package com.terminator;
+package com.terminator.citizens;
 
 import java.util.ArrayList;
 import java.util.Arrays;
