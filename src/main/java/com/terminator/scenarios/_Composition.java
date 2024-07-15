@@ -11,5 +11,4 @@ public class _Composition {
         Function<String, String> trimThenUpperCase = toUpperCase.compose(trim);
         System.out.println(trimThenUpperCase.apply("      jude bellingham"));
     }
-
 }
