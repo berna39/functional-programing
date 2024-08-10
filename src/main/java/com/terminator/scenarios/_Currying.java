@@ -11,6 +11,8 @@ public class _Currying {
          * 
          *  Moreover, a curried function does not realize its effect until it 
          *  receives all the arguments.
+         * 
+         *  I can call it also chaining functions
          */
 
         // Example 1

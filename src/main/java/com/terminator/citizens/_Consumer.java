@@ -14,7 +14,6 @@ public class _Consumer {
                     System.out.println(String.format("The value is : %s", value));
     // Signature Consumer<T>
 
-
     // A BiConsumer accepts two input values and returns not result
     static BiConsumer<String, String> displayNames = (name,  lastName) ->
                     System.out.println(String.format("The name is : %s - %s", name, lastName));

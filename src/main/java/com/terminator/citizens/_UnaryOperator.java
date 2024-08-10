@@ -22,9 +22,9 @@ public class _UnaryOperator {
 
     public static List<Integer> transform(List<Integer> list, UnaryOperator<Integer> transformer) {
         List<Integer> result = new ArrayList<>();
-        for (Integer t : list) {
+        for (Integer t : list)
             result.add(transformer.apply(t));
-        }
+        
         return result;
     }
 }
