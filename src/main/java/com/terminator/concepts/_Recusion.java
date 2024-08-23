@@ -1,4 +1,4 @@
-package com.terminator.scenarios;
+package com.terminator.concepts;
 
 public class _Recusion {
 

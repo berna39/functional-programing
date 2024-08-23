@@ -1,4 +1,4 @@
-package com.terminator.scenarios;
+package com.terminator.concepts;
 
 import static org.junit.Assert.assertEquals;
 
