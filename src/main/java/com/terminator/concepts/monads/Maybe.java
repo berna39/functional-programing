@@ -29,5 +29,4 @@ public class Maybe<T> implements Monad<T> {
         else
             return (Maybe<R>) mapper.apply(value);
     }
-    
 }
